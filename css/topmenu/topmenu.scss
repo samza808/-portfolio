@@ -27,7 +27,11 @@
       display: flex;
       justify-content: center;
       font-family: var(--Balsamiq-Sans);
+
     }
 
+    & > div:hover {
+      color: var(--text-color-2);
+    }
   }
 }

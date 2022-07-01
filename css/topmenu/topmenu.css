@@ -23,4 +23,7 @@
   display: flex;
   justify-content: center;
   font-family: var(--Balsamiq-Sans);
+}
+#topmenu > div > div:hover {
+  color: var(--text-color-2);
 }/*# sourceMappingURL=topmenu.css.map */
