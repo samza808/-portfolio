@@ -1,13 +1,13 @@
 :root {
-  --div-text-color-1: #484848
-  --div-text-color-2: #4F9CAA
-  --div-text-color-3: #F9FAFB 
-  --div-text-color-4: #59AAB9
-
-  --div-main-color-1: #C8F0F8 
-  --div-main-color-2: #F8E4E0
-  --div-main-color-3: #FFC6CC
-  --div-main-color-4: #FEEFE5
-
-  --div-menu-color-1: #A5EAE0
+  --text-color-1: #484848;
+  --text-color-2: #4F9CAA;
+  --text-color-3: #F9FAFB ;
+  --text-color-4: #59AAB9;
+  
+  --main-color-1: #C8F0F8 ;
+  --main-color-2: #F8E4E0;
+  --main-color-3: #FFC6CC;
+  --main-color-4: #FEEFE5;
+  
+  --menu-color-1: #A5EAE0;
 }

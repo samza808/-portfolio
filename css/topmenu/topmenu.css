@@ -1,5 +1,26 @@
 #topmenu {
   width: 1600px;
   height: 69px;
-  background-color: red;
+  background-color: rgba(165, 234, 224, 0.7);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#topmenu > div {
+  width: 900px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#topmenu > div > div {
+  width: 154px;
+  height: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  font-family: var(--Balsamiq-Sans);
 }/*# sourceMappingURL=topmenu.css.map */
