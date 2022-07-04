@@ -1,0 +1,95 @@
+#wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 1px solid #0011ff;
+
+
+  .main-object {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+
+    & > div {
+      position: absolute;
+    }
+
+    .notebook {
+      right: 32%;
+    }
+
+    .note-p {
+      width: 452px;
+      height: 290px;
+      right: 28%;
+      bottom: 8%;
+    }
+
+    .phone {
+      left: 20%;
+      bottom: 8%;
+      z-index: 1;
+    }
+
+    .paper {
+      left: 13%;
+      bottom: 25%;
+    }
+
+    .coffee {
+      right: 12%;
+      top: 28%;
+    }
+  }
+  
+  .sub-object {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+
+    & > div {
+      position: absolute;
+    }
+
+    .note-b {
+      left: 32%;
+      bottom: 18%;
+    }
+
+    .eraser {
+      bottom: 8%;
+      left: 35%;
+    }
+
+    .note-g {
+      bottom: 8%;
+      right: 16%;
+    }
+
+    .mouse {
+      bottom: 34%;
+      right: 19%;
+    }
+  }
+  
+  .back-g {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F8E4E0;
+
+    & > img {
+      position: relative;
+      top: -100px;
+    }
+  }
+
+}

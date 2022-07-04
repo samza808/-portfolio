@@ -14,5 +14,9 @@
 #root {
   width: 1600px;
   height: 900px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center
   /* border: 1px solid red; */
 }
