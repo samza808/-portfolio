@@ -1,0 +1,38 @@
+#wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#wrap > div {
+  position: absolute;
+}
+#wrap .page {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+#wrap .contens {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#wrap .contens > div:nth-child(1) {
+  width: 78%;
+  height: 100%;
+  background-color: var(--main-color-5);
+}
+#wrap .floor {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: var(--main-color-3);
+}/*# sourceMappingURL=portfolio.css.map */
