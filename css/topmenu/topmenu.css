@@ -7,23 +7,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-#topmenu > div {
-  width: 900px;
-  height: 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-#topmenu > div > div {
-  width: 154px;
-  height: 100%;
-  font-size: 24px;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  font-family: var(--Balsamiq-Sans);
-}
-#topmenu > div > div:hover {
-  color: var(--text-color-2);
+  position: absolute;
+  z-index: 10;
 }/*# sourceMappingURL=topmenu.css.map */
